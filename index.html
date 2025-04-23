@@ -26,14 +26,19 @@
       padding: 0;
       margin-top: 2em;
     }
+    ul ul {
+      padding-left: 15px;  /* Adjust padding for nested lists */
+      margin-left: 0;      /* Remove extra space */
+    }
     li {
-      margin: 0.2em 0;
+      margin-bottom: 0.2em;  /* Reduce space between list items */
     }
     a {
       color: #0066cc;
       text-decoration: none;
       font-weight: bold;
-      padding-left: 10px; /* Add padding to make the link and title closer */
+      padding-left: 0; /* No padding between title and link */
+      margin-left: 0;  /* Remove extra space on the left of links */
     }
     a:hover {
       text-decoration: underline;
@@ -47,8 +52,7 @@
   </header>
 
   <main>
-    <p>This page is hosted leveraging <strong>GitHub Pages</strong>.</p>
-
+    <p><i>This page is hosted leveraging <strong>GitHub Pages</strong></i>.</p>
     <h2>Course Modules</h2>
     <ul>
         <li><strong>Python Foundations</strong>
